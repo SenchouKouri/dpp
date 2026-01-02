@@ -1,6 +1,8 @@
 import os
 import shutil
 
+os.environ["KAGGLEHUB_CACHE_DIR"] = "E:/kagglehub"
+
 import kagglehub
 
 
